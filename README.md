@@ -1,6 +1,6 @@
 ## Skyport Systems Landing Page
 
-Site built [Jekyll](http://jekyllrb.com/) static webpage generator.
+Site built with [Jekyll](http://jekyllrb.com/) static webpage generator.
 
 [Github pages](https://help.github.com/articles/using-jekyll-with-pages) automatically compile jekyll projects. Any changes committed to this repository will be live almost instantaneously.
 
@@ -22,3 +22,5 @@ Site built [Jekyll](http://jekyllrb.com/) static webpage generator.
 ## TODO
 
 - [ ] precompile less.
+- [ ] change robots.txt to allow indexing if/when golive.
+- [ ] create faveicon.ico
