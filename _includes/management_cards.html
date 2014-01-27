@@ -1,0 +1,12 @@
+<div class="management-cards grid">
+
+  {% for person in site.data.management %}
+
+    <div class="card">
+      <img src="/assets/images/management/{{person.name | downcase | replace: ' ','_'}}.png" alt="{{person.name}}">
+      <strong>{{person.name}}</strong>{{person.title}}
+    </div>
+      
+  {% endfor %}
+
+</div>

@@ -1,0 +1,74 @@
+.page-body {
+  background-color: @header-bg-color;
+  min-height: 426px;
+  padding-bottom: 60px;
+}
+
+#whisperindex {
+  .page-body {
+    padding-top: 60px;
+  }
+}
+
+
+#contactindex {
+  .page-body {
+    padding-top: 60px;
+
+    .map {
+      float: left;
+      padding: 5px;
+      margin-right: 60px;
+      border: 1px solid @grey-light;
+      padding-bottom: 0;
+      .rounded-corners(6px);
+    }
+
+    .info {
+      float: left;
+    }
+  }
+}
+
+#teamindex {
+
+  h2.sutter-hill-ventures {
+    margin-top: 40px;
+    .image-replacement;
+    width: 275px;
+    height: 35px;
+    background: transparent url('../images/header_sprite.png') 0 -590px no-repeat;
+  }
+  
+  .management-cards {
+    margin: 40px 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid @grey-light;
+
+    .card {
+      padding: 10px 10px 20px;
+      border: 1px solid @grey-light;
+      .rounded-corners(8px);
+      
+      float: left;
+      margin-right: 26px;
+
+      &:last-of-type {
+        margin-right: 0px;
+      }
+
+      .image {
+        display: block;
+        width: 157px;
+        border: none;
+      }
+
+      strong {
+        display: block;
+        color: @brand-primary;
+        font-weight: normal;
+        margin: 12px 0 6px;
+      }
+    }
+  }
+}
