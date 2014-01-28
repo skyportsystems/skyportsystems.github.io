@@ -13,9 +13,21 @@
       <div class="col-2-3">
         
         <ul class="social">
-          <li><a class="facebook" href="http://facebook.com/">Follow us on facebook.</a></li>
-          <li><a class="linked-in" href="http://linkedin.com/">Follow us on LinkedIn.</a></li>
-          <li><a class="twitter" href="http://twitter.com/">Follow us on Twitter.</a></li>
+          <li>
+            <a class="facebook" href="https://www.facebook.com/skyportsystemsinc" target="_blank">
+              Follow us on facebook.
+            </a>
+          </li>
+          <li>
+            <a class="linked-in" href="https://www.linkedin.com/company/3529748?trk=tyah&trkInfo=tas%3Askyport%2Cidx%3A1-2-2" target="_blank">
+              Follow us on LinkedIn.
+            </a>
+          </li>
+          <li>
+            <a class="twitter" href="https://twitter.com/skyportsystems" target="_blank">
+              Follow us on Twitter.
+            </a>
+          </li>
         </ul>
         
         <ul class="navigation">
@@ -25,7 +37,9 @@
             {% assign url = page.url|remove:'index.html' %}
             
             <li {% if url == link.url %}class="active {{link.class}}"{% endif %}>
-              <a href="{{link.url}}" title="{{link.text}}">{{link.text}}</a>
+              <a href="{{link.url}}" title="{{link.text}}">
+                {{link.text}}
+              </a>
             </li>
             
           {% endfor %}
