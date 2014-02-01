@@ -12,15 +12,24 @@ Site built with [Jekyll](http://jekyllrb.com/) static webpage generator.
 * navigate browser to http://localhost:4000/
 
 
-
-## Compile site locally
+## Build site locally
 
 * $ cd repository directory
 * $ jekyll build --destination <destination>
- 
+
+
+## MB removed this: Precompile assets
+
+The less stylesheets need to be compiled before pushing to github.
+
+* install [less] http://less.github.io/#installation
+* cd repo directory
+* $ lessc -x assets/styles/skyport_systems.less > assets/styles/skyport_systems.min.css
+
 
 ## TODO
 
-- [ ] precompile less.
-- [ ] change robots.txt to allow indexing if/when golive.
-- [ ] create faveicon.ico
+* [x] precompile less.
+* [X] change robots.txt to allow indexing if/when golive.
+* [ ] create faveicon.ico
+
