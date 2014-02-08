@@ -10,6 +10,18 @@
   height: 185px;
   border-bottom: 5px solid @brand-primary;
   background-color: @header-bg-color;
+  overflow: hidden;
+  
+  div.left-column {
+    width: 25%;
+    float: left;
+  }
+  
+  div.right-column {
+    width: 75%;
+    float: left;
+  }
+  
 }
 
 h1.logo {
@@ -20,7 +32,7 @@ h1.logo {
     display: block;
     height: 130px;
     width: 140px;
-    background: transparent url('../images/header_sprite.png') 0 0 no-repeat;
+    background: transparent url('@{assets_root}/images/header_sprite.png') 0 0 no-repeat;
     .image-replacement;
   }
 }
@@ -43,19 +55,19 @@ ul.social {
       display: inline-block;
       width: 27px;
       height: 27px;
-      background: transparent url('../images/header_sprite.png');
+      background: transparent url('@{assets_root}/images/header_sprite.png');
       .image-replacement;
       
       &.facebook {
-        background-position: -100px -200px;
+        background-position: -200px 0px;
       }
       
       &.linked-in {
-        background-position: -200px -200px;
+        background-position: -300px 0px;
       }
       
       &.twitter {
-        background-position: -300px -200px;
+        background-position: -400px 0px;
       }
       
     }
