@@ -1,4 +1,5 @@
 .page-body {
+  border-top: 5px solid @grey-light;
   background-color: @header-bg-color;
   min-height: 426px;
   padding-bottom: 60px;
@@ -39,7 +40,7 @@
       display: block;
       width: 275px;
       height: 35px;
-      background: transparent url('../images/header_sprite.png') 0 -590px no-repeat;
+      background: transparent url('@{assets_root}/images/header_sprite.png') -200px -50px no-repeat;
       .image-replacement;
     }
   }
@@ -48,17 +49,20 @@
     margin: 40px 0;
     padding-bottom: 40px;
     border-bottom: 1px solid @grey-light;
-
+    overflow: hidden;
+    
     .card {
       padding: 10px 10px 20px;
       border: 1px solid @grey-light;
       .rounded-corners(8px);
+      width: 178px;
+      overflow: hidden;
       
       float: left;
-      margin-right: 26px;
+      margin-left: 26px;
 
-      &:last-of-type {
-        margin-right: 0px;
+      &:first-child {
+        margin-left: 0px;
       }
 
       .image {

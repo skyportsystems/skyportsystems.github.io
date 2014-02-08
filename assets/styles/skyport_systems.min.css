@@ -1,0 +1,30 @@
+@import "lib/normalize.css";
+@import "lib/overflowfix.css";
+.image-replacement{text-indent:100%;white-space:nowrap;overflow:hidden}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;background:#cdcdcd;color:#585859;line-height:1.5}
+h1{font-family:"Trebuchet MS",sans-serif;font-size:48px;font-weight:300;color:#f47d20;margin:40px 0 30px 0}
+h2{font-family:"Trebuchet MS",sans-serif;font-size:28px;color:#000;line-height:1.25;margin:0;margin:20px 0 10px}
+h3{font-family:"Trebuchet MS",sans-serif;font-size:18px;color:#000;margin:20px 0 10px}
+.blockquote{font-size:24px;line-height:1.5;color:#585859;font-family:"Trebuchet MS",sans-serif}
+a{color:#f47d20;text-decoration:none}a:hover{text-decoration:underline}
+p{margin:0 0 10px;padding:0}
+.container{width:800px;text-align:left;margin:0 auto;overflow:hidden}
+.header{padding-top:24px;height:185px;border-bottom:5px solid #f47d20;background-color:#fff;overflow:hidden}.header div.left-column{width:25%;float:left}
+.header div.right-column{width:75%;float:left}
+h1.logo{margin:0;padding:0}h1.logo a{display:block;height:130px;width:140px;background:transparent url('/assets//images/header_sprite.png') 0 0 no-repeat;text-indent:100%;white-space:nowrap;overflow:hidden}
+ul.social,ul.navigation{text-align:right}ul.social li,ul.navigation li{list-style:none;display:inline}
+ul.social li{margin-left:16px}ul.social li a{display:inline-block;width:27px;height:27px;background:transparent url('/assets//images/header_sprite.png');text-indent:100%;white-space:nowrap;overflow:hidden}ul.social li a.facebook{background-position:-200px 0}
+ul.social li a.linked-in{background-position:-300px 0}
+ul.social li a.twitter{background-position:-400px 0}
+ul.navigation{margin-top:45px}ul.navigation li{padding:4px 17px}ul.navigation li a{color:#585859;text-transform:uppercase;font-size:13px}
+ul.navigation li.active a{color:#f47d20}
+ul.navigation li:last-child{padding-right:0;border-left:1px solid #f47d20}
+.footer{padding:30px 0 70px 0;border-top:1px solid #f47d20}
+.page-body{border-top:5px solid #cdcdcd;background-color:#fff;min-height:426px;padding-bottom:60px}
+#whisperindex .page-body{padding-top:60px}
+#contactindex .page-body{padding-top:60px}#contactindex .page-body .map{float:left;padding:5px;margin-right:60px;border:1px solid #cdcdcd;padding-bottom:0;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px}
+#contactindex .page-body .info{float:left}
+#teamindex h2.sutter-hill-ventures{margin-top:40px}#teamindex h2.sutter-hill-ventures a{display:block;width:275px;height:35px;background:transparent url('/assets//images/header_sprite.png') -200px -50px no-repeat;text-indent:100%;white-space:nowrap;overflow:hidden}
+#teamindex .management-cards{margin:40px 0;padding-bottom:40px;border-bottom:1px solid #cdcdcd;overflow:hidden}#teamindex .management-cards .card{padding:10px 10px 20px;border:1px solid #cdcdcd;-webkit-border-radius:8px;-moz-border-radius:8px;-ms-border-radius:8px;-o-border-radius:8px;border-radius:8px;width:178px;overflow:hidden;float:left;margin-left:26px}#teamindex .management-cards .card:first-child{margin-left:0px}
+#teamindex .management-cards .card .image{display:block;width:157px;border:none}
+#teamindex .management-cards .card strong{display:block;color:#f47d20;font-weight:normal;margin:12px 0 6px}
