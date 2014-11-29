@@ -4,3 +4,6 @@ _site/
 .ruby-version
 .sass-cache
 Gemfile.lock
+
+## Hugo ignore
+public/
