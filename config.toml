@@ -1,4 +1,8 @@
-baseurl = "https://github.com/rexk/skyportsystems.github.io"
+baseurl = "http://www.skyportsystems.com/"
 languageCode = "en-us"
 title = "Skyport Systems"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
 
