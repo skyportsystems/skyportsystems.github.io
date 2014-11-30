@@ -1,7 +1,7 @@
----
-layout: default
-title: Contact
----
++++
+title = "Contact"
+splash = true
++++
 
 <div class="map">
   <img src="/assets/images/map.png">
@@ -26,7 +26,7 @@ title: Contact
   <p>
     Drop us a note and we'll get right back to you.
   </p>
-  
+
   <p>
 <script type="text/javascript" language="javascript">
 <!--
@@ -40,7 +40,7 @@ title: Contact
       ltr = coded.charAt(i)
       link += (ltr)
     }
-    else {     
+    else {
       ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
       link += (key.charAt(ltr))
     }
