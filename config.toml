@@ -1,6 +1,6 @@
 baseurl = "http://www.skyportsystems.com/"
 languageCode = "en-us"
-title = "Skyport Systems"
+title = "Skyports"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
