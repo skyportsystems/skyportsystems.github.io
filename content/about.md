@@ -1,9 +1,7 @@
 +++
-date = 2014-11-29T23:00:55Z
+date = 2014-11-30T01:21:43Z
 draft = true
-title = "about"
+title = "About me"
 
 +++
-
-Testing about
 

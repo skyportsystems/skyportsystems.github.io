@@ -4,5 +4,7 @@ title = "Skyport Systems"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-builddrafts = false
+builddrafts = true
 
+[indexes]
+  tag = "tags"
