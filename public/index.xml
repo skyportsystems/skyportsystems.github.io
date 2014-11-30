@@ -1,155 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Skyport Systems</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Skyport Systems</description>
-    <generator>Hugo -- gohugo.io</generator>
+      <title>Recent Content on Skyport Systems </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/index.xml</link>
     <language>en-us</language>
     
     
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <updated>Sun, 30 Nov 2014 01:21:43 UTC</updated>
     
     <item>
-      <title>Join us</title>
-      <link>http://localhost:1313/careers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <title>About me</title>
+      <link>http://localhost:1313/about</link>
+      <pubDate>Sun, 30 Nov 2014 01:21:43 UTC</pubDate>
       
-      <guid>http://localhost:1313/careers/</guid>
-      <description>&lt;h1&gt;Looking for something new?&lt;/h1&gt;
+      <guid>http://localhost:1313/about</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>career</title>
+      <link>http://localhost:1313/career</link>
+      <pubDate>Sun, 30 Nov 2014 00:49:39 UTC</pubDate>
+      
+      <guid>http://localhost:1313/career</guid>
+      <description>
 
-&lt;p class=&#34;blockquote&#34;&gt;
-  We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact. 
-  &lt;a href=&#34;http://www.jobscore.com/jobs/skyportsystems&#34; target=&#34;_blank&#34;&gt;Join us.&lt;/a&gt;
-&lt;/p&gt;
+&lt;h2 id=&#34;toc_0&#34;&gt;Career content&lt;/h2&gt;
 
-&lt;p&gt;
-&lt;/p&gt;
+&lt;p&gt;Something is comming&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;div class=&#34;map&#34;&gt;
-  &lt;img src=&#34;/assets/images/map.png&#34;&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;info&#34;&gt;
-
-  &lt;p&gt;
-    &lt;strong&gt;
-      SKYPORT SYSTEMS
-    &lt;/strong&gt;
-    &lt;br&gt;
-    &lt;strong&gt;
-      280 Hope St, Mountain View, CA 94041
-    &lt;/strong&gt;
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    &amp;nbsp;
-  &lt;/p&gt;
-
-  &lt;p&gt;
-    Drop us a note and we&#39;ll get right back to you.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-&lt;script type=&#34;text/javascript&#34; language=&#34;javascript&#34;&gt;
-&lt;!--
-// Thank you Tim Williams.  http://www.jottings.com/obfuscator/
-{ coded = &#34;mEb1om1@gHtXEk1gtg1RGg.mEG&#34;
-  key = &#34;KuoD4QHCVymRgAhqrdp8j6WO3P09EzfLnJFtGMavwNkYXIcesU2lZ7TSBxb5i1&#34;
-  shift=coded.length
-  link=&#34;&#34;
-  for (i=0; i&lt;coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {     
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
-  }
-  document.write(&#34;&lt;a href=&#39;mailto:&#34; + link + &#34;?subject=Request for Information About Skyport Systems&#39;&gt;mail us&lt;/a&gt;&#34;)
-}
-//--&gt;
-&lt;/script&gt;&lt;noscript&gt;Sorry, you need Javascript on to email me.&lt;/noscript&gt;
-  &lt;/p&gt;
-
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Meet the Team</title>
-      <link>http://localhost:1313/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/team/</guid>
-      <description>&lt;h2&gt;Leadership&lt;/h2&gt;
-
-&lt;p&gt;
-  We are a team of seasoned industry veterans with an accomplished track record of delivering compelling products and technology that surpass our customer&#39;s highest expectations.
-&lt;/p&gt;
-
-{% include management_cards.html %}
-
-&lt;h2&gt;Investors&lt;/h2&gt;
-
-&lt;p&gt;
-  Skyport Systems is backed by leading silicon valley technology investors.
-&lt;/p&gt;
-
-&lt;h2 class=&#34;sutter-hill-ventures&#34;&gt;
-  &lt;a href=&#34;http://shv.com/&#34; target=&#34;_blank&#34;&gt;
-    Sutter Hill Ventures
-  &lt;/a&gt;
-&lt;/h2&gt;
-
-&lt;p&gt;
-  Sutter Hill Ventures has financed technology-based start-ups and assisted entrepreneurs in building market-leading companies since 1962.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Whisper</title>
-      <link>http://localhost:1313/whisper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/whisper/</guid>
-      <description>&lt;p class=&#34;blockquote&#34;&gt;
-  We are partnering with a select set of customers to create the optimal set of products and solutions based on our foundational technology. If you are passionate about building next-generation Enterprise IT technology, contact us to learn how you can get involved.
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;script type=&#34;text/javascript&#34; language=&#34;javascript&#34;&gt;
-&lt;!--
-// Thank you Tim Williams.  http://www.jottings.com/obfuscator/
-{ coded = &#34;PURiDERy@yhqPYRiyqyiEvy.bYv&#34;
-  key = &#34;LTskXZBoE7gKwaG2vQr6HpbANldt3yhnWOY1IfVuUjMezRFSP50m9Ji8qcDCx4&#34;
-  shift=coded.length
-  link=&#34;&#34;
-  for (i=0; i&lt;coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {     
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
-  }
-  document.write(&#34;&lt;a href=&#39;mailto:&#34; + link + &#34;?subject=Partnering with Skyport Systems&#39;&gt;mail us&lt;/a&gt;&#34;)
-}
-//--&gt;
-&lt;/script&gt;&lt;noscript&gt;Sorry, you need Javascript on to email me.&lt;/noscript&gt;
-&lt;/p&gt;</description>
     </item>
     
   </channel>
