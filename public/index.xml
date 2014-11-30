@@ -12,24 +12,6 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Join us</title>
-      <link>http://localhost:1313/careers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/careers/</guid>
-      <description>&lt;h1&gt;Looking for something new?&lt;/h1&gt;
-
-&lt;p class=&#34;blockquote&#34;&gt;
-  We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact. 
-  &lt;a href=&#34;http://www.jobscore.com/jobs/skyportsystems&#34; target=&#34;_blank&#34;&gt;Join us.&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -150,6 +132,24 @@
 //--&gt;
 &lt;/script&gt;&lt;noscript&gt;Sorry, you need Javascript on to email me.&lt;/noscript&gt;
 &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Join us</title>
+      <link>http://localhost:1313/careers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/careers/</guid>
+      <description>&lt;h1&gt;Looking for something new?&lt;/h1&gt;
+
+&lt;p class=&#34;blockquote&#34;&gt;
+  We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact. 
+  &lt;a href=&#34;http://www.jobscore.com/jobs/skyportsystems&#34; target=&#34;_blank&#34;&gt;Join us.&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;/p&gt;
+</description>
     </item>
     
   </channel>
