@@ -30,6 +30,41 @@
     </item>
     
     <item>
+      <title>Whisper</title>
+      <link>http://localhost:1313/whisper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/whisper/</guid>
+      <description>&lt;p class=&#34;blockquote&#34;&gt;
+  We are partnering with a select set of customers to create the optimal set of products and solutions based on our foundational technology. If you are passionate about building next-generation Enterprise IT technology, contact us to learn how you can get involved.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;script type=&#34;text/javascript&#34; language=&#34;javascript&#34;&gt;
+&lt;!--
+// Thank you Tim Williams.  http://www.jottings.com/obfuscator/
+{ coded = &#34;PURiDERy@yhqPYRiyqyiEvy.bYv&#34;
+  key = &#34;LTskXZBoE7gKwaG2vQr6HpbANldt3yhnWOY1IfVuUjMezRFSP50m9Ji8qcDCx4&#34;
+  shift=coded.length
+  link=&#34;&#34;
+  for (i=0; i&lt;coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+  document.write(&#34;&lt;a href=&#39;mailto:&#34; + link + &#34;?subject=Partnering with Skyport Systems&#39;&gt;mail us&lt;/a&gt;&#34;)
+}
+//--&gt;
+&lt;/script&gt;&lt;noscript&gt;Sorry, you need Javascript on to email me.&lt;/noscript&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -114,41 +149,6 @@
 
 &lt;p&gt;
   Sutter Hill Ventures has financed technology-based start-ups and assisted entrepreneurs in building market-leading companies since 1962.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Whisper</title>
-      <link>http://localhost:1313/whisper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/whisper/</guid>
-      <description>&lt;p class=&#34;blockquote&#34;&gt;
-  We are partnering with a select set of customers to create the optimal set of products and solutions based on our foundational technology. If you are passionate about building next-generation Enterprise IT technology, contact us to learn how you can get involved.
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;script type=&#34;text/javascript&#34; language=&#34;javascript&#34;&gt;
-&lt;!--
-// Thank you Tim Williams.  http://www.jottings.com/obfuscator/
-{ coded = &#34;PURiDERy@yhqPYRiyqyiEvy.bYv&#34;
-  key = &#34;LTskXZBoE7gKwaG2vQr6HpbANldt3yhnWOY1IfVuUjMezRFSP50m9Ji8qcDCx4&#34;
-  shift=coded.length
-  link=&#34;&#34;
-  for (i=0; i&lt;coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {     
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
-  }
-  document.write(&#34;&lt;a href=&#39;mailto:&#34; + link + &#34;?subject=Partnering with Skyport Systems&#39;&gt;mail us&lt;/a&gt;&#34;)
-}
-//--&gt;
-&lt;/script&gt;&lt;noscript&gt;Sorry, you need Javascript on to email me.&lt;/noscript&gt;
 &lt;/p&gt;</description>
     </item>
     
