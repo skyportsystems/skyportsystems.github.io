@@ -1,5 +1,6 @@
 +++
 title = "Contact"
+splash = true
 +++
 
 <div class="map">
