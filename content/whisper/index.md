@@ -1,7 +1,6 @@
----
-layout: default
-title: Whisper
----
++++
+title = "Whisper"
++++
 
 <p class="blockquote">
   We are partnering with a select set of customers to create the optimal set of products and solutions based on our foundational technology. If you are passionate about building next-generation Enterprise IT technology, contact us to learn how you can get involved.
@@ -20,7 +19,7 @@ title: Whisper
       ltr = coded.charAt(i)
       link += (ltr)
     }
-    else {     
+    else {
       ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
       link += (key.charAt(ltr))
     }

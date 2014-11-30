@@ -1,7 +1,6 @@
----
-layout: default
-title: Meet the Team
----
++++
+title = "Meet the Team"
++++
 
 <h2>Leadership</h2>
 
