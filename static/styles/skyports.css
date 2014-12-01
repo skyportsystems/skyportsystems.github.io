@@ -70,14 +70,6 @@ div.l-box {
 }
 
 /* contact section css */
-.contact-section i.icon {
-    cursor: pointer;
-}
-
-.contact-section i.icon {
-    display: inline-block;
-}
-
 .contact-section a.mail-wrapper, .contact-section a.mail-wrapper:hover, .contact-section a.mail-wrapper:visited {
     text-decoration: none;
     color: inherit;
