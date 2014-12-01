@@ -58,16 +58,17 @@ section.rethink-section h2 {
     color: #f47d20;
     font-size: 3em;
     margin: 1.5em 0 0em;
+    margin-top: 3em;
 }
 
 section.rethink-section p {
     color: #777;
     font-size: 1.2em;
-    margin-bottom: 3.5em;
+    margin-bottom: 7.5em;
 }
 
 section.rethink-section .pure-u-1 {
-    margin-top:2em;
+    margin-top:3em;
     margin-left: auto;
     margin-right: auto;
 }
