@@ -23,7 +23,33 @@
         return IMAGE_PATH_PREFIX + '/' + backgroundImages[getRandomInt(0, backgroundImages.length)];
     }
 
+    var imgUrl = getBackgroundURL();
+
     $('.splash-container').css({
-        'background-image': 'url(' + getBackgroundURL() + ')'
+        'background-image': 'url(' + imgUrl + ')'
     });
+
+    $(document).ready(function () {
+        var navBar = $('#page_header');
+        var splashContainer = $('#splash_container');
+        var navBarHeight = navBar.height();
+        navBar.show();
+        var isHidden = false;
+        var checkNavPosition = function () {
+            var top = splashContainer.position().top;
+            var height = splashContainer.height();
+            if ((height - navBarHeight - 30) < top && isHidden) {
+                isHidden = false;
+                navBar.show();
+            } else if ((height - navBarHeight - 30) >= top && !isHidden) {
+                navBar.hide();
+                isHidden = true;
+            }
+        };
+
+        checkNavPosition();
+        $(document).scroll(checkNavPosition);
+    });
+
 })(window, Zepto);
+
