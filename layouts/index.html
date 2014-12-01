@@ -21,7 +21,7 @@
         {{ partial "splash.html" . }}
 
         <div class="content-wrapper">
-            {{ partial "team" . }}
+            {{ partial "team.html" . }}
             {{ range .Data.Pages.ByWeight }}
                 {{ if isset .Params "splash" }}
                     {{ if isset .Params "template" }}
