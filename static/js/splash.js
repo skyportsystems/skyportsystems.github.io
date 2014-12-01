@@ -5,7 +5,11 @@
     var IMAGE_PATH_PREFIX = '/images/background';
     var backgroundImages = [
         'newyork.jpg',
-        'sf.jpg'
+        'newyork2.jpeg',
+        'newyork3.jpg',
+        'newyork4.jpg',
+        'sf.jpg',
+        'sf3.jpg'
     ];
 
     // Returns a random integer between min (included) and max (excluded)
