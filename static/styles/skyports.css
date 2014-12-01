@@ -94,3 +94,12 @@ section h1.content-head {
     margin-top: 1em;
     margin-bottom: 1.5em;
 }
+/* contact section css */
+.contact-section a.mail-wrapper, .contact-section a.mail-wrapper:hover, .contact-section a.mail-wrapper:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-section a.mail-wrapper:hover {
+    color: #f47d20; /* skyport orange */
+}

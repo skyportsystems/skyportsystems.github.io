@@ -11,7 +11,11 @@ cssSectionTag = "contact"
     SKYPORT SYSTEMS
     <br>
     280 Hope St, Mountain View, CA 94041
+    <br>
 
-
+    <a class="mail-wrapper">
+        <i class="icon icon-mail"></i>
+        <span>Drop us a note and we'll get right back to you.</span>
+    </a>
     <noscript>Sorry, you need Javascript on to email me.</noscript>
 </div>
