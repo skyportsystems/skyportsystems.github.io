@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 splash = true
+weight = 2
 cssSectionTag = "contact"
 +++
 <div class="map">
