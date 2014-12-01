@@ -2,6 +2,7 @@
 title = "Join us"
 splash = true
 template = "card"
+weight = 1
 +++
 
 ## Looking for something new?
