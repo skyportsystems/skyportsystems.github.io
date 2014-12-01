@@ -6,7 +6,9 @@ weight = 2
 cssSectionTag = "joinus"
 +++
 
-## Looking for something new?
+## Join us
+
+### Looking for something new?
 
 We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact.
 
