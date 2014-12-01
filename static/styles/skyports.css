@@ -15,8 +15,8 @@
 
 .skyports-logo-mini {
     background: url(/images/logo-small.png) center center no-repeat;
-    background-image : -webkit-linear-gradient(transparent,transparent), url(/images/logo-small-black.svg);
-    background-image : linear-gradient(transparent,transparent), url(/images/logo-small-black.svg);
+    background-image : -webkit-linear-gradient(transparent,transparent), url(/images/logo-small.svg);
+    background-image : linear-gradient(transparent,transparent), url(/images/logo-small.svg);
     position: relative;
     display:block;
     float:left;
