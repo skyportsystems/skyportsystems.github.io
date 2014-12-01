@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="{{ .Site.BaseUrl }}">
+    <title> {{ .Title }} </title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+    {{ partial "head_includes.html" . }}
+</head>
+
+<body>
+    {{ partial "page_header.html" . }}
+
+    <div class="content-wrapper">
+        <div class="content">
+            {{ .Content }}
+        </div>
+    {{ partial "contact_us.html" . }}
+    {{ partial "page_footer.html" . }}
+    </div>
+</body>
+
+</html>
