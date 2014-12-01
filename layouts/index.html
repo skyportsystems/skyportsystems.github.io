@@ -23,6 +23,7 @@
         <div class="content-wrapper">
             {{ partial "slogan.html" . }}
             {{ partial "team.html" . }}
+            {{ partial "investor.html" . }}
             {{ range .Data.Pages.ByWeight }}
                 {{ if isset .Params "splash" }}
                     {{ if isset .Params "template" }}
