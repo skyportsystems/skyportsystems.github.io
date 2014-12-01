@@ -1,0 +1,14 @@
+div.team_card {
+    border: 1px solid #cdcdcd;
+    border-radius: 0.5em;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 1em;
+    margin: 0 auto;
+    width: 13em;
+}
+
+div.team_card p {
+    letter-spacing: 0em;
+}
