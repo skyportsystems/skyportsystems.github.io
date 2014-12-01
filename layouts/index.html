@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en-US">
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <base href="{{ .Site.BaseUrl }}">
-        <title> {{ .Title }} </title>
+        <title>{{ .Title }}</title>
         <link rel="canonical" href="{{ .Permalink }}">
-        {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+        {{ if .RSSlink }}
+            <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
+        {{ end }}
+
+        <meta name="description" content="Skyport Systems is an early stage technology company. We are building foundational technology for the next-generation Enterprise IT infrastructure.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         {{ partial "head_includes.html" . }}
     </head>
 
@@ -13,20 +21,19 @@
         {{ partial "splash.html" . }}
 
         <div class="content-wrapper">
-        {{ range .Data.Pages }}
-            {{ if isset .Params "splash" }}
-                {{ if isset .Params "template" }}
-                    {{ .Render .Params.template }}
-                {{ else }}
-                    {{ .Render "card" }}
+            {{ range .Data.Pages }}
+                {{ if isset .Params "splash" }}
+                    {{ if isset .Params "template" }}
+                        {{ .Render .Params.template }}
+                    {{ else }}
+                        {{ .Render "card" }}
+                    {{ end }}
                 {{ end }}
+
             {{ end }}
 
-        {{ end }}
-
-        {{ partial "contact_us.html" . }}
-        {{ partial "page_footer.html" . }}
+            {{ partial "contact_us.html" . }}
+            {{ partial "page_footer.html" . }}
         </div>
     </body>
-
 </html>
