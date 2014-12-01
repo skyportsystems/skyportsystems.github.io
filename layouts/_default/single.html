@@ -1,36 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <base href="{{ .Site.BaseUrl }}">
-    <title> {{ .Title }} </title>
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
-    {{ partial "head_includes.html" . }}
+    <meta http-equiv="refresh" content="0;/#{{ .Params.sectionid }}">
 </head>
-
-<body>
-
-    {{ partial "page_header.html" . }}
-
-    <div class="splash-container">
-        <div class="splash">
-            <h1 class="splash-head">Big Bold Text</h1>
-            <p class="splash-subhead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <p>
-                <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="content-wrapper">
-        <div class="content">
-            {{ .Content }}
-        </div>
-
-    {{ partial "page_footer.html" . }}
-    </div>
-</body>
-
 </html>
