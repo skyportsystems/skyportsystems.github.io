@@ -1,32 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <base href="{{ .Site.BaseUrl }}">
-    <title> {{ .Title }} </title>
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
-    {{ partial "head_includes.html" . }}
-</head>
-
-<body>
-    {{ partial "page_header.html" . }}
-    {{ partial "splash.html" . }}
-
-    <div class="content-wrapper">
-    {{ range .Data.Pages }}
-        {{ if isset .Params "splash" }}
-            {{ if isset .Params "template" }}
-                {{ .Render .Params.template }}
-            {{ else }}
-                {{ .Render "card" }}
-            {{ end }}
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="{{ .Site.BaseUrl }}">
+        <title>{{ .Title }}</title>
+        <link rel="canonical" href="{{ .Permalink }}">
+        {{ if .RSSlink }}
+            <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
         {{ end }}
 
-    {{ end }}
+        <meta name="description" content="Skyport Systems is an early stage technology company. We are building foundational technology for the next-generation Enterprise IT infrastructure.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{ partial "contact_us.html" . }}
-    {{ partial "page_footer.html" . }}
-    </div>
-</body>
+        {{ partial "head_includes.html" . }}
+    </head>
 
+    <body>
+        {{ partial "page_header.html" . }}
+        {{ partial "splash.html" . }}
+
+        <div class="content-wrapper">
+            {{ range .Data.Pages }}
+                {{ if isset .Params "splash" }}
+                    {{ if isset .Params "template" }}
+                        {{ .Render .Params.template }}
+                    {{ else }}
+                        {{ .Render "card" }}
+                    {{ end }}
+                {{ end }}
+
+            {{ end }}
+
+            {{ partial "page_footer.html" . }}
+            {{ partial "js_includes.html" . }}
+        </div>
+    </body>
 </html>
