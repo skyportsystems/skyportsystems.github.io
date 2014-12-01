@@ -2,8 +2,8 @@
 title = "Contact"
 splash = true
 weight = 2
+cssSectionTag = "contact"
 +++
-
 <div class="map">
   <img src="/assets/images/map.png">
 </div>
