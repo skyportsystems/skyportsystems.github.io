@@ -6,6 +6,7 @@ weight = 2
 cssSectionTag = "joinus"
 +++
 
+<link rel='stylesheet' href='/styles/joinus.css'/>
 ## Looking for something new?
 
 We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact.
