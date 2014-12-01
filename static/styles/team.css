@@ -1,6 +1,7 @@
 img.management-images {
     max-height: 157px;
     max-width: 209px;
+    border-radius: 100px;
 }
 
 div.team_card {
