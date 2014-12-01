@@ -1,14 +1,23 @@
-div.team_card {
-    border: 1px solid #cdcdcd;
-    border-radius: 0.5em;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-    padding: 1em;
-    margin: 0 auto;
-    width: 13em;
+img.management-images {
+    max-height: 157px;
+    max-width: 209px;
 }
 
-div.team_card p {
-    letter-spacing: 0em;
+div.team_card {
+    width: 12em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.team_card > div:nth-child(2) {
+    color: #f47d20;
+}
+
+div.team_card > div:last-child {
+    margin-bottom: 1em;
+}
+
+.team-section h1 {
+    color: white;
+    text-align: center;
 }
