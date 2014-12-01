@@ -60,9 +60,13 @@ section.rethink-section h2 {
     margin-bottom: 0em;
 }
 
-section.rethink-section h3 {
+section.rethink-section p {
     color: #777;
     font-size: 1.2em;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5em;
 }
 
 div.l-box {

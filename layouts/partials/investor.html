@@ -1,0 +1,20 @@
+<link rel='stylesheet' href='/styles/investor.css'/>
+<section class='investor-section'>
+    <div class='ribbon l-box-lrg pure-g'>
+        <div class='pure-u-1'>
+           <h1 class='content-head is-center'>Investors</h1>
+        </div>
+        {{ range .Data.Pages.ByWeight }}
+            {{ if eq .Section "investor" }}
+                <!-- Render each investor here using pure css -->
+                    <div class='pure-u-1'>
+                        <div class="investor_card">
+                            <img src='{{ .Params.src }}'/>
+                            <div>{{ .Description }}</div>
+                        </div>
+                    </div>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>
+
