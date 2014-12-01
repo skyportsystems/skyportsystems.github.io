@@ -11,4 +11,4 @@ cssSectionTag = "joinus"
 
 We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact.
 
-[Join us](http://www.jobscore.com/jobs/skyportsystems)
+<a href='http://www.jobscore.com/jobs/skyportsystems' class='pure-button'>Join Us</a>

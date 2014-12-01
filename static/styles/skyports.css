@@ -61,18 +61,49 @@
 section.rethink-section h2 {
     color: #f47d20;
     font-size: 3em;
-    margin-bottom: 0em;
+    margin: 1.5em 0 0em;
 }
 
 section.rethink-section p {
     color: #777;
     font-size: 1.2em;
-    max-width: 500px;
+    margin-bottom: 3.5em;
+}
+
+section.rethink-section .pure-u-1 {
+    margin-top:2em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.5em;
 }
 
 div.l-box {
     padding: 2em;
+}
+
+.contact-section .ribbon .pure-u-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+section h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+section h1.content-head {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+/* contact section css */
+.contact-section a.mail-wrapper, .contact-section a.mail-wrapper:hover, .contact-section a.mail-wrapper:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-section a.mail-wrapper:hover {
+    color: #f47d20; /* skyport orange */
 }
