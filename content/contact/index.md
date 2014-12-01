@@ -2,7 +2,6 @@
 title = "Contact"
 splash = true
 +++
-
 <div class="map">
   <img src="/assets/images/map.png">
 </div>
