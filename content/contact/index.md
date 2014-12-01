@@ -3,6 +3,7 @@ title = "Contact"
 splash = true
 weight = 3
 cssSectionTag = "contact"
+sectionId = "contact"
 +++
 
 <div class='inner-contact'>

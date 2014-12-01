@@ -4,6 +4,7 @@ splash = true
 template = "card"
 weight = 2
 cssSectionTag = "joinus"
+sectionId = "careers"
 +++
 
 <link rel='stylesheet' href='styles/joinus.css'/>
