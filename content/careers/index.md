@@ -2,7 +2,7 @@
 title = "Join us"
 splash = true
 template = "card"
-weight = 1
+weight = 2
 cssSectionTag = "joinus"
 +++
 
