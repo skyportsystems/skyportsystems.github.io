@@ -63,12 +63,24 @@ section.rethink-section h2 {
 section.rethink-section p {
     color: #777;
     font-size: 1.2em;
-    max-width: 500px;
+    margin-bottom: 3.5em;
+}
+
+section.rethink-section .pure-u-1 {
+    margin-top:2em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.5em;
 }
 
 div.l-box {
     padding: 2em;
+}
+
+.contact-section .ribbon .pure-u-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: justify;
 }
