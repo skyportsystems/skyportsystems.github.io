@@ -6,6 +6,9 @@
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
     {{ partial "head_includes.html" . }}
+    <meta name="description" content="Skyport Systems is an early stage technology company. We are building foundational technology for the next-generation Enterprise IT infrastructure.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ partial "head_includes.html" . }}
     <link rel="stylesheet" type="text/css" href="/styles/team.css">
 </head>
 
@@ -44,6 +47,7 @@
             </p>
         </div>
     {{ partial "page_footer.html" . }}
+    {{ partial "js_includes.html" . }}
     </div>
 </body>
 
