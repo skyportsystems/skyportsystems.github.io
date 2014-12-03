@@ -1,8 +1,8 @@
 +++
-title = "Douglas Dogray"
+title = "Douglas Gourlay"
 description = "VP Corporate"
-src = "images/management/doug.png"
+src = "/images/management/doug.png"
 weight = 5
 +++
 
-## Michael Beesley
+## Douglas Gourlay
