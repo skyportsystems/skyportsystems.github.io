@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -d "dist" ]; then
+if ! [ -d "dist" ]; then
   echo "Creating \"dist\" folder"
   mkdir dist
 fi
