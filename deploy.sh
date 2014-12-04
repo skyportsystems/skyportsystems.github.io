@@ -5,8 +5,8 @@ deploy_directory=dist
 deploy_branch=gh-pages
 
 #if no user identity is already set in the current git environment, use this:
-default_username=rexk
-default_email=myungsunrex@gmail.com
+default_username=rexk                         # don't use my name!!!!
+default_email=myungsunrex@gmail.com           # don't use my email!!!
 
 #repository to deploy to. must be readable and writable.
 repo=origin
