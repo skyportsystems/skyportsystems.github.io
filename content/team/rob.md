@@ -1,6 +1,6 @@
 +++
 title = "Rob Rodgers"
-css = 'rob-padding'
+css = "rob-padding"
 description = "Chief Architect"
 src = "/images/management/rob_rodgers.png"
 weight = 4
