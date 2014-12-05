@@ -6,4 +6,4 @@ weight = 3
 css = "will-padding"
 +++
 
-Will has worked with Mike, Rob, and Stefan at both Juniper Networks and Cisco Systems, and was most recently a VP of engineering at Juniper Networks. He is a distinguished engineer at Cisco Systems, which brought him on through their acquisition of Growth Networks, where he was a member of the founding engineering team. Will holds a Masters Degree in Electrical Engineering. 
+Will was VP of Engineering at Juniper Networks, where he oversaw high end routing.  Before Juniper he was 10 years at Cisco Systems as a Distinguished Engineer resulting in 24 patents.  He then led delivery of IOS-XE Operating System with a team of over 600 engineers, as well as development of a new routing system with Stefan, Michael and Rob.  He joined Cisco through their acquisition of Growth Networks, where he was a member of the founding engineering team.  He holds an EE degree from the University of Missouri-Rolla, and an MSEE from Washington University in St. Louis.
