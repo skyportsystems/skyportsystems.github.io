@@ -1,0 +1,42 @@
+.investor-section .ribbon, .investor-section{
+    background-color: #ccc;
+}
+
+.investor-section .arrow-up {
+    border-bottom-color: #ccc;
+}
+
+.investor_card {
+    width: 25em;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.investor_card p {
+    color: #333;
+}
+
+.investor-section .content-head {
+    margin:0;
+    margin-bottom: 1.5em;
+    color: white;
+}
+
+.investor-section img {
+    width: 350px;
+}
+
+.investor-section .investor_card div {
+    padding-top: 1em;
+}
+
+.investor-section .ribbon {
+    padding-bottom: 5em;
+}
+
+@media (max-width: 768px) {
+    .investor-section img {
+        width: 100%;
+    }
+}
