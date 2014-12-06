@@ -1,35 +1,42 @@
 ## Skyport Systems Landing Page
 
-Site built with [Jekyll](http://jekyllrb.com/) static webpage generator.
-
-[Github pages](https://help.github.com/articles/using-jekyll-with-pages) automatically compile jekyll projects. Any changes committed to this repository will be live almost instantaneously.
+Site built with [Hugo](http://gohugo.io/) static webpage generator.
 
 ## Running site locally
 
-* [install jekyll](http://jekyllrb.com/docs/installation/)
+* [install Hugo](http://gohugo.io/overview/installing/)
 * $ cd repository directory
-* $ jekyll serve --watch
-* navigate browser to http://localhost:4000/
+* $ hugo server --watch
+* navigate browser to http://localhost:1313
 
+## Build a site for deployment
 
-## Build site locally
+Build script is responsible for creating github-page compatible static page into `./dist` folder. following is the instruction:
 
 * $ cd repository directory
-* $ jekyll build --destination <destination>
+* $ ./build.sh
 
+## Deployment Script 
 
-## MB removed this: Precompile assets
+Deployment script is to help out cumbersom hugo-generated page deployment process to github page easy and nice
+There are a few variables that needs to be setup before excuting the deployment script.
 
-The less stylesheets need to be compiled before pushing to github.
+### CNAME
+CNAME file needs to be pointing www.skyportsystems.com
 
-* install [less] http://less.github.io/#installation
-* cd repo directory
-* $ lessc -x assets/styles/skyport_systems.less > assets/styles/skyport_systems.min.css
+### deploy.sh
+- default_username: change username to skyportsystems admin 
+- default_email: change email to skyportsystems admin
+- repo: git remote name that the github-page will be deployed to 
 
+### Prerequisite
+- make sure `./build.sh` is called before deploying
+- make sure that CNAME and variables are correct
 
 ## TODO
-
-* [x] precompile less.
-* [X] change robots.txt to allow indexing if/when golive.
-* [ ] create faveicon.ico
+* [x] Hugo Set-up
+* [x] New Style sets
+* [x] New Contents
+* [x] New Layouts
+* [x] Documentation
 

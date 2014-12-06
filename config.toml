@@ -1,0 +1,10 @@
+baseurl = "http://skyportsystems.com"
+languageCode = "en-us"
+title = "Skyports Systems"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+
+[indexes]
+  tag = "tags"
