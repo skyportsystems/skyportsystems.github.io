@@ -1,6 +1,6 @@
 +++
 title = "Douglas Gourlay"
-description = "VP Corporate"
+description = "Corporate VP"
 src = "/images/management/doug.png"
 css = "doug-padding"
 weight = 5
