@@ -5,8 +5,8 @@ deploy_directory=dist
 deploy_branch=gh-pages
 
 #if no user identity is already set in the current git environment, use this:
-default_username=rexk                         # don't use my name!!!!
-default_email=myungsunrex@gmail.com           # don't use my email!!!
+default_username=rsrsps                         # don't use my name!!!!
+default_email=rsr@skyportsystems.com           # don't use my email!!!
 
 #repository to deploy to. must be readable and writable.
 repo=origin
@@ -69,7 +69,7 @@ previous_branch=`git rev-parse --abbrev-ref HEAD`
 if [ $setup ]; then
 	mkdir -p $deploy_directory
 	git --work-tree $deploy_directory checkout --orphan $deploy_branch
-	git --work-tree $deploy_directory rm -r "*"
+	git --work-tree $deploy_directory rm -rf "*"
 	git --work-tree $deploy_directory add --all
 	git --work-tree $deploy_directory commit -m "initial publish"$'\n\n'"generated from commit $commit_hash"
 	git push $repo $deploy_branch
