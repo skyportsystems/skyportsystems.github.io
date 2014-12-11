@@ -1,6 +1,8 @@
 .joinus-section .ribbon {
     background: white;
-    margin-bottom: 1em;
+//    margin-bottom: 1em;
+    margin: 0 auto 1em; FF bug fix
+    width: 40%; // FF bug fix
 }
 
 .joinus-section .content-head {
