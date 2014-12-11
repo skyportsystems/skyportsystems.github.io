@@ -17,9 +17,9 @@
         {
             name: 'newyork2.jpeg'
         },
-        {
-            name: 'newyork3.jpg'
-        },
+//        {
+//            name: 'newyork3.jpg'
+//        },
         {
             name: 'newyork4.jpg'
         },
