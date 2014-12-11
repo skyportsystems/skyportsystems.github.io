@@ -1,8 +1,7 @@
 .joinus-section .ribbon {
     background: white;
-//    margin-bottom: 1em;
-    margin: 0 auto 1em; // FF fix
-    width: 40%; // FF fix
+    margin: 0 auto 1em; 
+    width: 40%; 
 }
 
 .joinus-section .content-head {
