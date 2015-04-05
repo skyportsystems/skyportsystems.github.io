@@ -1,6 +1,8 @@
 .joinus-section .ribbon {
     background: white;
-    margin-bottom: 1em;
+    margin: 0 auto 1em; 
+	max-width: 100%;
+    width: 25em; 
 }
 
 .joinus-section .content-head {
@@ -10,4 +12,5 @@
 .joinus-section .ribbon .pure-u-1 {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
