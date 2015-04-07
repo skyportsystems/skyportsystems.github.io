@@ -12,4 +12,6 @@ sectionId = "careers"
 
 We are an experienced, high-performance team passionate about building next-generation technology that makes a big industry impact.
 
-<a href='http://www.jobscore.com/jobs/skyportsystems' class='pure-button'>Join Us</a>
+<div class='button-control'>
+    <a href='http://www.jobscore.com/jobs/skyportsystems' class='pure-button'>Join Us</a>
+</div>

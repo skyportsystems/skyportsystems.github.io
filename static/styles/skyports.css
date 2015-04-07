@@ -79,13 +79,54 @@
     top: 88%;
 }
 
+/* lead-section */
+
 section.lead-section {
-  background-color: orange;
+  background-color: #f47d20;
+  text-align: center;
 }
 
 .lead-section .arrow-up {
-  border-bottom-color: orange;
+  border-bottom-color: #f47d20;
 }
+
+.lead-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4em;
+}
+
+.lead-button-container {
+    padding-top:1em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.lead-form {
+    text-align: left;
+    display: none;
+    overflow: hidden;
+    transition: height 5s ;
+    -moz-transition: height 5s ; /* Firefox 4 */
+    -webkit-transition: height 5s ; /* Safari and Chrome */
+    -o-transition: height 5s ; /* Opera */
+}
+
+.lead-form .button-control {
+    text-align: center;
+}
+
+.button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+    color: white;
+}
+
+.lead-button-container {
+    text-align: center;
+}
+
+/* rethink section */
 
 section.rethink-section h2 {
     color: #f47d20;
@@ -142,10 +183,4 @@ section h1.content-head {
 
 .contact-section a.mail-wrapper:hover {
     color: #f47d20; /* skyport orange */
-}
-
-.button-rounded {
-  font-size: 2em;
-  width: 10em;
-  height: 4em;
 }
