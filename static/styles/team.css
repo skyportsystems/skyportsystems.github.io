@@ -9,18 +9,18 @@ div.team-card {
     margin-right: auto;
 }
 
-.team-section h1 {
+.team-section h1.content-head {
     color: white;
     text-align: center;
     font-size: 3em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 .team-container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 1.5em;
 }
 
 .team-info-wrapper div:first-child {
@@ -32,8 +32,8 @@ div.team-card {
 }
 
 .team-info {
-    padding-left: 20px;
-    width: 54%;
+    /*padding-left: 20px;*/
+    /*width: 54%;*/
 }
 
 .team-info-wrapper {

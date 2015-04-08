@@ -1,4 +1,15 @@
 /* skyports css overrides the css set in marketing.css, marketing.css is a template css provided by pure css - http://purecss.io/layouts/marketing/ */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
 /* header */
 
 .home-menu.pure-menu-open {
@@ -82,28 +93,55 @@
 /* lead-section */
 
 section.lead-section {
-  background-color: #f47d20;
+  background-color: #CD5555;
   text-align: center;
 }
 
 .lead-section .arrow-up {
-  border-bottom-color: #f47d20;
+  border-bottom-color: #CD5555;
 }
 
 .lead-container {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 4em;
+}
+
+.lead-message {
+    color: white;
+    font-size: 1.7em;
+    top: 0.2em;
+    position: relative;
+}
+
+.lead-message span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lead-message span:hover {
+    color: #2d3e50;
+}
+
+.lead-message div:first-child {
+    text-align: right;
+}
+.lead-message div:last-child {
+    text-align: left;
 }
 
 .lead-button-container {
-    padding-top:1em;
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 2em;
 }
 
+.lead-form .pure-g {
+    margin-top: 0.8em;
+}
+
 .lead-form {
+    top: -30px;
+    position: relative;
     text-align: left;
     display: none;
     overflow: hidden;
@@ -113,12 +151,11 @@ section.lead-section {
     -o-transition: height 5s ; /* Opera */
 }
 
-.lead-form .button-control {
-    text-align: center;
+.lead-form fieldset {
+    padding-bottom: 0;
 }
 
-.button-warning {
-    background: rgb(223, 117, 20); /* this is an orange */
+.lead-form label {
     color: white;
 }
 
@@ -126,13 +163,22 @@ section.lead-section {
     text-align: center;
 }
 
-/* rethink section */
+.button-wrapper-to-collapse {
+    margin-top: 0.5em;
+    color: white;
+}
+
+.button-collapse {
+    cursor: pointer;
+}
+
+/* slogan section */
 
 section.rethink-section h2 {
     color: #f47d20;
     font-size: 3em;
     margin: 1.5em 0 0em;
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
 section.rethink-section p {
@@ -141,16 +187,26 @@ section.rethink-section p {
     margin-bottom: 1em;
 }
 
+section.rethink-section .pure-g {
+    padding-top: 0;
+}
+
 section.rethink-section p:last-child {
-    margin-bottom: 7.5em;
+    margin-bottom: 4em;
 }
 
 section.rethink-section .pure-u-1 {
     margin-top:3em;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 1em;
+    padding: 0 1em;
 }
+
+.rethink-message {
+    padding: 0 !important;
+}
+
+/* End of slogan section */
 
 div.l-box {
     padding: 2em;
