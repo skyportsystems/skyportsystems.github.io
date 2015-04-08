@@ -32,7 +32,7 @@ CNAME file needs to be pointing www.skyportsystems.com
 - make sure `./build.sh` is called before deploying
 - make sure that CNAME and variables are correct
 
-### Default section size
+### Default css section responsive size
 ```
 pure-u-1 pure-u-sm-22-24 pure-u-md-20-24 pure-u-lg-16-24 pure-u-xl-14-24
 ```

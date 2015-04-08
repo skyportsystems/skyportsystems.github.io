@@ -104,6 +104,8 @@ section.lead-section {
 .lead-container {
     margin-left: auto;
     margin-right: auto;
+    top: -13px;
+    position: relative;
 }
 
 .lead-message {
@@ -140,9 +142,14 @@ section.lead-section {
 }
 
 .lead-form {
-    top: -30px;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    max-width: 100%;
+    margin: 0px auto;
+    width: 100%;
+    top: -1.2em;
     position: relative;
-    text-align: left;
     display: none;
     overflow: hidden;
     transition: height 5s ;
@@ -157,6 +164,10 @@ section.lead-section {
 
 .lead-form label {
     color: white;
+}
+
+.lead-form .lead-control {
+    padding-top: 0.1em;
 }
 
 .lead-button-container {
@@ -192,7 +203,7 @@ section.rethink-section .pure-g {
 }
 
 section.rethink-section p:last-child {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 section.rethink-section .pure-u-1 {
@@ -231,6 +242,7 @@ section h1.content-head {
     margin-top: 1em;
     margin-bottom: 1.5em;
 }
+
 /* contact section css */
 .contact-section a.mail-wrapper, .contact-section a.mail-wrapper:hover, .contact-section a.mail-wrapper:visited {
     text-decoration: none;
@@ -239,4 +251,15 @@ section h1.content-head {
 
 .contact-section a.mail-wrapper:hover {
     color: #f47d20; /* skyport orange */
+}
+
+.contact-section .ribbon {
+    padding-bottom: 4.5em;
+}
+
+.footer.l-box {
+    padding: 3.5em;
+}
+.l-box-lrg {
+    border-bottom-color: transparent;
 }
