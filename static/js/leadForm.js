@@ -14,19 +14,19 @@
     // Captures the event of form submission
     // and post an ajax request to sales force
     $(".lead-form form.pure-form").submit(function () {
-        // $.ajax({
-        //     type: "POST",
-        //     dataType: "jsonp",
-        //     // jsonpCallback: jsonpResp,
-        //     url: "https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
-        //     data: $(this).serialize(),
-        //     success: function (data) {
-        //         console.log('success', data);
-        //     },
-        //     error: function (xhr, type) {
-        //         console.log('ERROR');
-        //     }
-        // });
+        // Further documentation here: https://developer.salesforce.com/page/Ajax_Proxy
+        // https://naX.salesforce.com/soap/ajax/32.0/connection.js
+        sforce.connection.remoteFunction({
+            url : "https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8",
+            requestData: $(this).serialize(),
+            method: "POST",
+            onSuccess : function(response) {
+                console.lg('success');
+            },
+            onFailure : function(response) {
+                console.log('error');
+            }
+        });
 
         return false;
     });
