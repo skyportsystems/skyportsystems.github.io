@@ -5,17 +5,19 @@
         <div class='pure-u-1'>
            <h1 class='content-head is-center'>Investors</h1>
         </div>
-        {{ range .Data.Pages.ByWeight }}
-            {{ if eq .Section "investor" }}
-                <!-- Render each investor here using pure css -->
-                    <div class='pure-u-1'>
-                        <div class="investor_card">
-                            <img src='{{ .Params.src }}'/>
-                            <p>{{ .Description }}</p>
+        <div class='investor-content pure-u-1 pure-u-sm-22-24 pure-u-md-20-24 pure-u-lg-20-24 pure-u-xl-20-24'>
+            {{ range .Data.Pages.ByWeight }}
+                {{ if eq .Section "investor" }}
+                    <!-- Render each investor here using pure css -->
+                        <div class='investor-card pure-u-1 pure-u-sm-1 pure-u-md-7-24 {{ .Params.cssname }}'>
+                            <div>
+                                <img class='pure-img {{ .Params.cssname }}' title='{{ .Title }}' src='{{ .Params.src }}'/>
+                                <p class='investor-blurb {{ .Params.cssname }}'>{{ .Description }}</p>
+                            </div>
                         </div>
-                    </div>
+                {{ end }}
             {{ end }}
-        {{ end }}
+        </div>
     </div>
 </section>
 
