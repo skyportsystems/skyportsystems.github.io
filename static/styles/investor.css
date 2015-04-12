@@ -52,7 +52,7 @@
     margin: 0 5.7%;
 }
 
-@media (MIX-WIDTH: 896PX) AND (MAX-WIDTH: 1041PX) {
+@media (MIN-WIDTH: 896PX) AND (MAX-WIDTH: 1041PX) {
   .pure-u-1.sutter-hills-ventures {
       margin: 0 5.6%;
   }  
