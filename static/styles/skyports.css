@@ -55,6 +55,10 @@
     border-bottom-color: #2d3e50;
 }
 
+.team-section .ribbon, .careers-section .ribbon {
+    text-align: center;
+}
+
 .rethink-section .arrow-up, .joinus-section .arrow-up {
     border-bottom-color: white;
 }
@@ -199,6 +203,7 @@ section.rethink-section p {
 }
 
 section.rethink-section .pure-g {
+    text-align: center;
     padding-top: 0;
 }
 
