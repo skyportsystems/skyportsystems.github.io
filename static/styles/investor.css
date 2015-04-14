@@ -6,34 +6,92 @@
     border-bottom-color: #f0f0f0;
 }
 
-.investor_card {
-    width: 25em;
+.investor-card .pure-img {
     margin: 0 auto;
     text-align: center;
     max-width: 100%;
 }
 
-.investor_card p {
+.investor-card p {
     color: #2d3e50;
 }
 
 .investor-section .content-head {
     margin:0;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     color: #2d3e50;
     margin-top: 0.5em;
+}
+
+.investor-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.investor-content .pure-img {
+    padding-bottom: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.investor-content .pure-img.sutter-hills-ventures {
+    padding-top: 1.3em;
+    padding-bottom: 1em;
+}
+
+.investor-content .pure-img.intel-capital {
+    width: 60px;
+}
+
+.investor-content .investor-blurb.intel-capital {
+    margin-top: 0.2em;
+}
+
+.pure-u-1.sutter-hills-ventures {
+    margin: 0 5.7%;
+}
+
+@media (MIN-WIDTH: 896PX) AND (MAX-WIDTH: 1041PX) {
+  .pure-u-1.sutter-hills-ventures {
+      margin: 0 5.6%;
+  }  
+}
+
+@media (MAX-WIDTH: 895PX) {
+  .pure-u-1.sutter-hills-ventures {
+      margin: 0 5.5%;
+  }  
+}
+
+@media (MAX-WIDTH: 768PX) {
+    .pure-u-1.sutter-hills-ventures {
+        margin: 0;
+    } 
+
+    .investor-content img.pure-img {
+        width: 25em;
+    }
+
+    .investor-card {
+        margin-bottom: 1.5em !important;
+    }
+}
+
+.investor-blurb {
+    text-align: left;
 }
 
 .investor-section img {
     width: 350px;
 }
 
-.investor-section .investor_card div {
+.investor-section .investor-card div {
     padding-top: 1em;
 }
 
 .investor-section .ribbon {
-    padding-bottom: 5em;
+    padding-bottom: 3em;
 }
 
 @media (max-width: 768px) {
