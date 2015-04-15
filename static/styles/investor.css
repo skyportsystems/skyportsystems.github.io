@@ -47,10 +47,6 @@
     width: 60px;
 }
 
-.pure-u-1.intel-capital {
-    margin: 0 5.7%;
-}
-
 .investor-blurb {
     text-align: left;
 }
@@ -61,6 +57,7 @@
 
 .investor-section .investor-card .investor-inner-wrapper {
     padding-top: 1em;
+    padding-bottom: 1.5em;
 }
 
 .investor-section .ribbon {
@@ -75,22 +72,7 @@
     height: 60px;
 }
 
-@media (MIN-WIDTH: 896PX) AND (MAX-WIDTH: 1041PX) {
-  .pure-u-1.intel-capital {
-      margin: 0 5.6%;
-  }  
-}
-
-@media (MAX-WIDTH: 895PX) {
-  .pure-u-1.intel-capital {
-      margin: 0 5.5%;
-  }  
-}
-
 @media (MAX-WIDTH: 768PX) {
-    .pure-u-1.intel-capital {
-        margin: 0;
-    } 
 
     .investor-content img.pure-img {
         width: 25em;
