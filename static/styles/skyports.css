@@ -10,6 +10,7 @@
 .center {
     text-align: center;
 }
+
 /* header */
 
 .home-menu.pure-menu-open {
@@ -36,6 +37,14 @@
 
     /* golden ratio */
     background-size: auto 61%;
+}
+
+.content-wrapper, .lead-section, .rethink-section {
+    z-index: 10 !important;
+}
+
+.splash-container {
+    z-index: -1 !important;
 }
 /* triangle */
 .arrow-up {
