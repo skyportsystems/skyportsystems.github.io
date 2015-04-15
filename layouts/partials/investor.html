@@ -10,8 +10,10 @@
                 {{ if eq .Section "investor" }}
                     <!-- Render each investor here using pure css -->
                         <div class='investor-card pure-u-1 pure-u-sm-1 pure-u-md-7-24 {{ .Params.cssname }}'>
-                            <div>
-                                <img class='pure-img {{ .Params.cssname }}' title='{{ .Title }}' src='{{ .Params.src }}'/>
+                            <div class='investor-inner-wrapper'>
+                                <div class='investor-img-wrapper'>
+                                    <img class='pure-img {{ .Params.cssname }}' title='{{ .Title }}' src='{{ .Params.src }}'/>
+                                </div>
                                 <p class='investor-blurb {{ .Params.cssname }}'>{{ .Description }}</p>
                             </div>
                         </div>
