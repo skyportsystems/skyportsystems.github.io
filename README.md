@@ -37,6 +37,9 @@ CNAME file needs to be pointing www.skyportsystems.com
 pure-u-1 pure-u-sm-22-24 pure-u-md-20-24 pure-u-lg-16-24 pure-u-xl-14-24
 ```
 
+### Hugo Version
+v0.13-DEV
+
 ## TODO
 * [x] Hugo Set-up
 * [x] New Style sets
