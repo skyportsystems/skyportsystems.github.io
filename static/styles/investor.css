@@ -34,48 +34,17 @@
     margin-right: auto;
 }
 
+.investor-content .pure-img.index-ventures {
+    padding-top: 0.3em;
+}
 
 .investor-content .pure-img.sutter-hills-ventures {
-    padding-top: 1.3em;
+    padding-top: 1.5em;
     padding-bottom: 1em;
 }
 
 .investor-content .pure-img.intel-capital {
     width: 60px;
-}
-
-.investor-content .investor-blurb.intel-capital {
-    margin-top: 0.2em;
-}
-
-.pure-u-1.sutter-hills-ventures {
-    margin: 0 5.7%;
-}
-
-@media (MIN-WIDTH: 896PX) AND (MAX-WIDTH: 1041PX) {
-  .pure-u-1.sutter-hills-ventures {
-      margin: 0 5.6%;
-  }  
-}
-
-@media (MAX-WIDTH: 895PX) {
-  .pure-u-1.sutter-hills-ventures {
-      margin: 0 5.5%;
-  }  
-}
-
-@media (MAX-WIDTH: 768PX) {
-    .pure-u-1.sutter-hills-ventures {
-        margin: 0;
-    } 
-
-    .investor-content img.pure-img {
-        width: 25em;
-    }
-
-    .investor-card {
-        margin-bottom: 1.5em !important;
-    }
 }
 
 .investor-blurb {
@@ -86,16 +55,68 @@
     width: 350px;
 }
 
-.investor-section .investor-card div {
+.investor-section .investor-card .investor-inner-wrapper {
     padding-top: 1em;
+    padding-bottom: 1.5em;
 }
 
 .investor-section .ribbon {
     padding-bottom: 3em;
 }
 
-@media (max-width: 768px) {
+.investor-section .ribbon {
+    text-align: center;
+}
+
+.investor-img-wrapper {
+    height: 60px;
+}
+
+@media (MIN-WIDTH: 1025PX) AND (MAX-WIDTH: 1280PX) {
+    .investor-content .pure-img.sutter-hills-ventures {
+        padding-top: 1.3em;
+    }
+}
+
+@media (MIN-WIDTH: 831PX) AND (MAX-WIDTH: 1024PX) {
+    .investor-content .pure-img.sutter-hills-ventures {
+        padding-top: 1.1em;
+    }
+}
+
+@media (MIN-WIDTH: 769PX) AND (MAX-WIDTH: 830PX) {
+    .investor-content .pure-img.sutter-hills-ventures {
+        padding-top: 1em;
+    }
+}
+
+@media (MAX-WIDTH: 768PX) {
+
+    .investor-content img.pure-img {
+        width: 25em;
+    }
+
+    .investor-card {
+        margin-bottom: 1.5em !important;
+    }
+
+    .investor-blurb {
+        padding-top: 1em;
+    }
+
     .investor-section img {
         width: 100%;
+    }
+
+    .investor-card.intel-capital .investor-inner-wrapper, .investor-card.sutter-hills-ventures .investor-inner-wrapper {
+        padding-top: 0;
+    }
+
+    .investor-card.sutter-hills-ventures .investor-img-wrapper {
+        height: 20px;
+    }
+
+    .investor-content .pure-img.sutter-hills-ventures {
+        padding-top: 1em;
     }
 }
