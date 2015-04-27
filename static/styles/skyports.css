@@ -12,6 +12,9 @@
 }
 
 /* header */
+.pure-menu.pure-menu-open.pure-menu-fixed {
+    z-index: 101;
+}
 
 .home-menu.pure-menu-open {
     /*background: #f47d20;*/
